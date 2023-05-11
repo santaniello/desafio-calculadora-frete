@@ -98,7 +98,7 @@ A regra para o calculo de frete por valor do produto deverá ser a seguinte: Se 
 
 ***Aprendizado:*** A idéia aqui é treinar conceitos relacionados a testes e a qualidade do software de uma maneira geral.
 
-Implementes testes automatizados e integrados para os tipos de calculo e para as validações.
+Implementes testes automatizados para os tipos de calculo e para as validações.
 
 ***Recomendações:***
 
