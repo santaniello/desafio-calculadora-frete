@@ -2,6 +2,7 @@
 
 - [FASE 1](#fase-1)
   - [Regras de Negócio](#regras-de-negócio)
+  - [Funcionamento do Calculo De Frete](#como-funcionará-o-calculo-de-frete-)
 - [FASE 2](#fase-2)
 - [FASE 3](#fase-3)
 - [FASE 4](#fase-4)
