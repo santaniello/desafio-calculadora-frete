@@ -1,12 +1,15 @@
 # Desafio Calculadora Frete
 
-- [FASE 1](#fase-1)
-  - [Regras de Negócio](#regras-de-negócio)
-  - [Funcionamento do Calculo De Frete](#como-funcionará-o-calculo-de-frete-)
-- [FASE 2](#fase-2)
-- [FASE 3](#fase-3)
-- [FASE 4](#fase-4)
-- [FASE 5](#fase-5)
+<img src="https://ai.github.io/size-limit/logo.svg" align="right"
+alt="Size Limit logo by Anton Lovchikov" width="120" height="178">
+
+- [💻 FASE 1 - Criando a aplicação](#fase-1)
+  - [💲 Regras de Negócio](#regras-de-negócio)
+  - [📚 Funcionamento do Calculo De Frete](#como-funcionará-o-calculo-de-frete-)
+- [🤖 FASE 2 - Melhorando a qualidade com testes automatizados](#fase-2)
+- [🚀 FASE 3 - Implementando APIS com Spring Framework](#fase-3)
+- [🌐 FASE 4 - Consumindo APIS Rest](#fase-4)
+- [⚙️ FASE 5 - Banco de Dados](#fase-5)
 
 ---
 
@@ -28,7 +31,7 @@ Valor do Frete: 15,00
 
 ### Regras de Negócio
 
-- As classes devem estar dentro de um pacote cujo nome é a junção do groupid e do artifactid do maven (br.com.happycode.desafiofrete);
+- As classes devem estar dentro de um pacote cujo nome é a junção do groupid e do artifactid do maven (br.com.happycode.desafiofrete). ***OBS: happycode é o nome fictício da empresa.***;
   - Olhe o arquivo pom.xml que você irá ver o groupid e o artifactid (só por curiosidade);
   - Dica: De uma olhada no seguinte video para entender mais sobre a [estrutura de um projeto Maven](https://www.youtube.com/watch?v=ZQICkNszEuI)
 - O cliente deverá conter as seguintes informações: 
@@ -110,7 +113,9 @@ Implementes testes automatizados e integrados para os tipos de calculo e para as
 
 ***Aprendizado:*** A idéia aqui é consolidar os conceitos de Web e Apis Rest por meio do Spring Framework.
 
-***[API REST: PRINCÍPIOS E BOAS PRÁTICAS PARA SERVIÇOS RESTFUL](https://smarti.blog.br/api-rest-principios-boas-praticas-para-arquiteturas-restful/)***
+***Material de apoio:***
+- [Arquitetura Cliente Servidor](https://www.youtube.com/watch?v=hlnejiv5ppw);
+- ***[API REST: Princípios e boas práticas para serviços restful](https://smarti.blog.br/api-rest-principios-boas-praticas-para-arquiteturas-restful/)***;
 
 Precisamos construir uma Api que nos forneça as seguintes funcionalidas:
 
