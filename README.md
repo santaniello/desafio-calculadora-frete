@@ -1,7 +1,7 @@
 # Desafio Calculadora Frete
 
 <img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/13483_ECF5D4B2CBDD90FC.jpeg" align="right"
-alt="Size Limit logo by Anton Lovchikov" width="120" height="178">
+alt="Size Limit logo by Anton Lovchikov" width="300" height="178">
 
 - [💻 FASE 1 - Criando a aplicação](#fase-1)
   - [💲 Regras de Negócio](#regras-de-negócio)
