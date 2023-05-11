@@ -6,6 +6,7 @@
 - [FASE 2](#fase-2)
 - [FASE 3](#fase-3)
 - [FASE 4](#fase-4)
+- [FASE 5](#fase-5)
 
 ---
 
@@ -44,6 +45,7 @@ Valor do Frete: 15,00
       - Dicas:
           - Estude sobre o pacote [java.lang.String](https://www.devmedia.com.br/java-string-manipulando-metodos-da-classe-string/29862);          
   - logradouro;
+  - bairro;
   - cidade;
   - uf;
     - A uf deve ser um estado do Brasil valido. Exemplo: SP, MG, RJ e etc ...
@@ -108,6 +110,8 @@ Implementes testes automatizados e integrados para os tipos de calculo e para as
 
 ***Aprendizado:*** A idéia aqui é consolidar os conceitos de Web e Apis Rest por meio do Spring Framework.
 
+***[API REST: PRINCÍPIOS E BOAS PRÁTICAS PARA SERVIÇOS RESTFUL](https://smarti.blog.br/api-rest-principios-boas-praticas-para-arquiteturas-restful/)***
+
 Precisamos construir uma Api que nos forneça as seguintes funcionalidas:
 
 Produto:
@@ -135,6 +139,24 @@ Calculo de Frete:
 ---
 
 ### FASE 4
+
+***Objetivo:*** Agora vamos alterar o cadastro do nosso cliente para que seja necessario enviar apenas o cep e o restante dos dados sejam obtidos através de uma api de terceiros (uf, logradouro, bairro cidade e etc...).
+
+***Aprendizado:*** A idéia é aprender a consumir uma api rest de terceiros.
+
+***Obs:*** 
+- Crie um modulo maven separado cada se comunicar com a api;
+- Utilizar o novo [HttpClient do Java 11](https://mkyong.com/java/java-11-httpclient-examples/); 
+- [Documentação da api de ceps](https://apicep.com/api-de-consulta/);
+
+### O que será avaliado ?
+
+- Qualidade do código;
+- Boas práticas no consumos de Apis (Configuração de timeout e etc ..);
+
+---
+
+### FASE 5
 
 ***Objetivo:*** Agora vamos trabalhar com banco de dados na nossa aplicação. Para isso, vamos por fazer uso de 2 tipos de banco, um relacional (H2) e outro não relacional (MongoDb).
 
