@@ -100,6 +100,18 @@ A regra para o calculo de frete por valor do produto deverá ser a seguinte: Se 
 
 Implementes testes automatizados e integrados para os tipos de calculo e para as validações.
 
+***Recomendações:***
+
+- Como Framework de teste, utilize o [Junit 5](https://junit.org/junit5/).
+- Para mockar os objetos, utilize o framework [Mockito](https://site.mockito.org/).
+- Nos testes unitários, não subir o contexto do Spring (SpringBootTest);
+
+***Material de Apoio:***
+
+- [Testes unitários com Junit 5](https://www.devmedia.com.br/teste-unitario-com-junit/41235);
+- [Usando Junit5 e Mockito](https://www.youtube.com/watch?v=rVSwDX9KUt8);
+- [Testes com SpringBoot](https://dev.to/wesleyegberto/spring-boot-estrategias-para-testar-rest-api-2nc6)
+
 ### O que será avaliado ?
 
 - Qualidade dos testes;
