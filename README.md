@@ -40,7 +40,6 @@ Valor do Frete: 15,00
       - O cep deve conter exatamente 8 dígitos numéricos;
       - Não pode ter letras ou caracteres especiais;
       - Caso o Cep seja invalido, você deve lançar a exceção IllegalArgumentException do Java, trata-la e exibir a seguinte mensagem no console: "Cep invalido ! o formato correto deveria ser XXXXXXXX"
-        - Dica: Se precisar, revise o capitulo 12 da apostila;
       - Se o usuário mandar um cep com mascara (hifen) exemplo: 021023-040, você deve remover esse hifen exemplo: 02123040;
       - Dicas:
           - Estude sobre o pacote [java.lang.String](https://www.devmedia.com.br/java-string-manipulando-metodos-da-classe-string/29862);          
@@ -109,21 +108,21 @@ Implementes testes automatizados e integrados para os tipos de calculo e para as
 
 ***Aprendizado:*** A idéia aqui é consolidar os conceitos de Web e Apis Rest por meio do Spring Framework.
 
-Precisamos ter as seguintes APIS:
+Precisamos construir uma Api que nos forneça as seguintes funcionalidas:
 
 Produto:
 
-- Obter produto por Id;
-- Cadastrar produto;
-- Deletar produto;
-- Buscar todos os produtos;
+- Obter o produto por Id;
+- Cadastrar um produto;
+- Deletar um produto;
+- Buscar todos os produtos cadastrados;
 
 Cliente:
 
-- Obter cliente por Id;
-- Cadastrar cliente;
-- Deletar cliente;
-- Buscar todos os clientes;
+- Obter o cliente por Id;
+- Cadastrar um cliente;
+- Deletar um cliente;
+- Buscar todos os clientes cadastrados;
 
 Calculo de Frete:
 - Calcular o frete informando como parametros o tipo de calculo a ser executado, o id do produto e o id do cliente;
