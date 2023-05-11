@@ -117,7 +117,7 @@ Implementes testes automatizados e integrados para os tipos de calculo e para as
 - [Arquitetura Cliente Servidor](https://www.youtube.com/watch?v=hlnejiv5ppw);
 - ***[API REST: Princípios e boas práticas para serviços restful](https://smarti.blog.br/api-rest-principios-boas-praticas-para-arquiteturas-restful/)***;
 
-Precisamos construir uma Api que nos forneça as seguintes funcionalidas:
+Precisamos construir uma Api que nos forneça as seguintes funcionalidades:
 
 Produto:
 
@@ -163,7 +163,7 @@ Calculo de Frete:
 
 ### FASE 5
 
-***Objetivo:*** Agora vamos trabalhar com banco de dados na nossa aplicação. Para isso, vamos por fazer uso de 2 tipos de banco, um relacional (H2) e outro não relacional (MongoDb).
+***Objetivo:*** Agora vamos trabalhar com banco de dados na nossa aplicação. Para isso, vamos fazer uso de 2 tipos de banco, um relacional (H2) e outro não relacional (MongoDb).
 
 ***Aprendizado:*** A idéia é consolidar os conceitos de base de dados relacionais e não relacionais (NoSql).
 
