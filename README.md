@@ -88,12 +88,9 @@ A regra para o calculo de frete por valor do produto deverá ser a seguinte: Se 
 
 - Uso correto de variaveis;
 - Uso correto de modificadores de acesso;
-- Uso correto de metodos de instância e estáticos;
-  - [Dica](https://www.devmedia.com.br/trabalhando-com-metodos-em-java/25917);
-- Encapsulamento das classes;
-  - [Dica](https://www.youtube.com/watch?v=OTO1MBMmH9g);
-- Coesão e Acoplamento;
-  - [Dica](https://www.devmedia.com.br/entendendo-coesao-e-acoplamento/18538);
+- [Uso correto de metodos de instância e estáticos](https://www.devmedia.com.br/trabalhando-com-metodos-em-java/25917);  
+- [Encapsulamento das classes](https://www.youtube.com/watch?v=OTO1MBMmH9g);  
+- [Coesão e acoplamento](https://www.devmedia.com.br/entendendo-coesao-e-acoplamento/18538);
 - Uso da orientação a objeto (Classe, Método, Herança, Polimorfismo, Encapsulamento e etc...);
 - Se todas as regras e funcionalidades descritas nesse arquivo estão de acordo;
 - Qualidade do código de uma maneira geral;
