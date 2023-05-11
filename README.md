@@ -13,6 +13,12 @@ alt="Size Limit logo by Anton Lovchikov" width="260" height="178">
 
 ---
 
+## PRÉ REQUISITOS
+
+- [Java 11](https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html);
+- [Maven](https://maven.apache.org/download.cgi);
+- [IntelliJ Community](https://www.jetbrains.com/idea/download/#section=windows) ou [SpringTools](https://spring.io/tools);
+
 ## FASE 1
 
 ***Objetivo:*** Criar uma aplicação que baseada em um produto e no endereço do cliente, seja calculado o valor do frete e impresso no console.
