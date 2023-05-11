@@ -1,8 +1,10 @@
-# Desafio Calculadora Frete 
+# Desafio Calculadora Frete
 
 ## FASE 1
 
 ***Objetivo:*** Criar uma aplicação que baseada em um produto e no endereço do cliente, seja calculado o valor do frete e impresso no console.
+
+***Aprendizado:*** A idéia aqui é desenvolver conceitos basicos da linguagem Java e da orientação a objetos.
 
 Exemplo do que deve ser impresso no Console :
 
@@ -12,7 +14,7 @@ UF: SP
 Valor do Frete: 15,00
 ```
 
-### Regras 
+### Regras de Negócio
 
 - As classes devem estar dentro de um pacote cujo nome é a junção do groupid e do artifactid do maven (br.com.happycode.desafiofrete);
   - Olhe o arquivo pom.xml que você irá ver o groupid e o artifactid (só por curiosidade);
@@ -31,7 +33,7 @@ Valor do Frete: 15,00
         - Dica: Se precisar, revise o capitulo 12 da apostila;
       - Se o usuário mandar um cep com mascara (hifen) exemplo: 021023-040, você deve remover esse hifen exemplo: 02123040;
       - Dicas:
-          - Estude sobre o pacote java.lang.String (Cap: 13 da apostila);
+          - Estude sobre o pacote java.lang.String;
           - Link util: https://www.devmedia.com.br/java-string-manipulando-metodos-da-classe-string/29862
 
   - logradouro;
@@ -44,10 +46,9 @@ Valor do Frete: 15,00
 - O produto deverá conter as seguintes informações:
   - descrição;
   - valor;
-    - Pode utilizar Double como tipo;
-    - O valor do produto não pode ser nulo ou zero, caso seja, a exceção PrecoInvalidoException (Você deverá criar essa exceção) deverá ser lançada e tratada e a unica mensagem que deverá ser exibida no console é: "O valor do produto [Aqui vc coloca o nome do produto] está inválido pois deve ser maior que zero !" ;
-      - - Dica: Se precisar, revise o capitulo 12 da apostila;
-- O retorno do calculo de frete deverá conter as seguintes informações:
+    - Utilize Double como tipo;
+    - O valor do produto não pode ser nulo ou zero, caso seja, a exceção PrecoInvalidoException deverá ser lançada e tratada e a unica mensagem que deverá ser exibida no console é: "O valor do produto [Aqui vc coloca o nome do produto] está inválido pois deve ser maior que zero !" ;      
+- O frete deverá conter as seguintes informações:
   - produto;
   - uf;   
   - valor;
@@ -64,10 +65,6 @@ A regra para o calculo de frete por uf deverá ser a seguinte: Se a uf do client
 
 A regra para o calculo de frete por valor do produto deverá ser a seguinte: Se o preco do produto for menor que 20,00 o valor do frete será de 2,00. Se o valor do produto for entre 20,00 e 100,00 o Frete deverá ser 8,00 e acima de R$ 100,00 o frete é gratis (0,00);
 
-
-***Dica: Faça uso do Polimorfismo ! lembre-se que podemos alcança-lo com o uso de interfaces. Revise o capitulo 11 se vc precisar ...***
-
-
 ### O que será avaliado ?
 
 Basicamente tudo que foi visto na apostila.
@@ -82,22 +79,66 @@ Basicamente tudo que foi visto na apostila.
   - Dica: https://www.devmedia.com.br/entendendo-coesao-e-acoplamento/18538
 - Uso da orientação a objeto (Classe, Método, Herança, Polimorfismo, Encapsulamento e etc...);
 - Se todas as regras e funcionalidades descritas nesse arquivo estão de acordo;
+- Qualidade do código de uma maneira geral;
 
-### Plus
+---
 
-Precisamos testar a nossa aplicação e para isso, a ideia é utilizar o conceito de testes automatizados !
+### FASE 2
 
-Não sabe o que é isso ?
+***Objetivo:*** Precisamos testar a nossa aplicação e para isso, a ideia é utilizar o conceito de testes automatizados !
 
-Dê uma pesquisada na Internet !
+***Aprendizado:*** A idéia aqui é treinar conceitos relacionados a testes e a qualidade do software de uma maneira geral.
 
-Pesquise sobre os tipos de teste e principalmente sobre o conceito de testes unitários utilizando Junit5 e Mockito, ambos são libs de teste do Java que são muito utilizadas no mercado. 
+Implementes testes automatizados e integrados para os tipos de calculo e para as validações.
 
-Objetivos:
+### O que será avaliado ?
 
-- Implementar as dependências do Junit5 e do Mockito e criar testes unitários para os 2 tipos de calculo de frete e todas as validações que temos na aplicação (cep, valor do produto e etc...).
-  - Como configurar o Junit5 em um projeto Maven: https://www.devmedia.com.br/teste-unitario-com-junit/41235
-  - Não esqueça de usar a versão mais recente do Junit5 ! 
-  - Pesquise sobre testes unitários e Mocks;
-  - Configure a dependência do Mockito;
+- Qualidade dos testes;
+- Cobertura de testes;
 
+---
+
+### FASE 3
+
+***Objetivo:*** A ideia agora é implementar apis para nossa aplicação utilizando Spring Framework.
+
+***Aprendizado:*** A idéia aqui é consolidar os conceitos de Web e Apis Rest por meio do Spring Framework.
+
+Precisamos ter as seguintes APIS:
+
+Produto:
+
+- Obter produto por Id;
+- Cadastrar produto;
+- Deletar produto;
+- Buscar todos os produtos;
+
+Cliente:
+
+- Obter cliente por Id;
+- Cadastrar cliente;
+- Deletar cliente;
+- Buscar todos os clientes;
+
+Calculo de Frete:
+- Calcular o frete informando como parametros o tipo de calculo a ser executado, o id do produto e o id do cliente;
+
+### O que será avaliado ?
+
+- Boas práticas de API;
+- Testes das Apis;
+
+---
+
+### FASE 4
+
+***Objetivo:*** Agora vamos trabalhar com banco de dados na nossa aplicação. Para isso, vamos por fazer uso de 2 tipos de banco, um relacional (H2) e outro não relacional (MongoDb).
+
+***Aprendizado:*** A idéia é consolidar os conceitos de base de dados relacionais e não relacionais (NoSql).
+
+***Obs:*** Crie um modulo maven separado cada banco. 
+
+### O que será avaliado ?
+
+- Conexão com banco de dados;
+- Utilização de banco de dados com a API;
