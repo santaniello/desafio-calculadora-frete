@@ -1,8 +1,18 @@
 # Desafio Calculadora Frete
 
+- [FASE 1](#fase-1)
+  - [Regras de Negócio](#regras-de-negócio)
+- [FASE 2](#fase-2)
+- [FASE 3](#fase-3)
+- [FASE 4](#fase-4)
+
+---
+
 ## FASE 1
 
 ***Objetivo:*** Criar uma aplicação que baseada em um produto e no endereço do cliente, seja calculado o valor do frete e impresso no console.
+
+***Obs:*** Para esse desafio, foi utilizado como base a apostila [Java e Orientação a Objetos](https://www.caelum.com.br/apostila/apostila-java-orientacao-objetos.pdf) da [Caelum](https://www.caelum.com.br/) 
 
 ***Aprendizado:*** A idéia aqui é desenvolver conceitos basicos da linguagem Java e da orientação a objetos.
 
@@ -18,12 +28,11 @@ Valor do Frete: 15,00
 
 - As classes devem estar dentro de um pacote cujo nome é a junção do groupid e do artifactid do maven (br.com.happycode.desafiofrete);
   - Olhe o arquivo pom.xml que você irá ver o groupid e o artifactid (só por curiosidade);
-  - Dica: De uma olhada no seguinte video para entender mais sobre a estrutura de um projeto Maven: https://www.youtube.com/watch?v=ZQICkNszEuI
+  - Dica: De uma olhada no seguinte video para entender mais sobre a [estrutura de um projeto Maven](https://www.youtube.com/watch?v=ZQICkNszEuI)
 - O cliente deverá conter as seguintes informações: 
   - nome;
   - data de aniversario;
-    - A data de aniversario do cliente deverá utilizar a nova api de datas do Java 8 (Pesquise na internet);
-    - Link que pode ajudar: https://www.alura.com.br/artigos/conheca-a-nova-api-de-datas-do-java-8
+    - A data de aniversario do cliente deverá utilizar a nova [api de datas do Java 8](https://www.alura.com.br/artigos/conheca-a-nova-api-de-datas-do-java-8);    
   - cep;
     - O cep deve estar dentro das seguintes regras:
       - O cep deve aceitar zeros a esquerda. Exemplo: 02123040;
@@ -33,16 +42,14 @@ Valor do Frete: 15,00
         - Dica: Se precisar, revise o capitulo 12 da apostila;
       - Se o usuário mandar um cep com mascara (hifen) exemplo: 021023-040, você deve remover esse hifen exemplo: 02123040;
       - Dicas:
-          - Estude sobre o pacote java.lang.String;
-          - Link util: https://www.devmedia.com.br/java-string-manipulando-metodos-da-classe-string/29862
+          - Estude sobre o pacote [java.lang.String](https://www.devmedia.com.br/java-string-manipulando-metodos-da-classe-string/29862);          
 
   - logradouro;
   - cidade;
   - uf;
     - A uf deve ser um estado do Brasil valido. Exemplo: SP, MG, RJ e etc ...
     - Dicas:
-      - Você pode utilizar uma enum para representar a uf ao invés de String;
-      - Link util: https://www.devmedia.com.br/enums-no-java/38764
+      - Você pode utilizar uma [enum](https://www.devmedia.com.br/enums-no-java/38764) para representar a uf ao invés de String;      
 - O produto deverá conter as seguintes informações:
   - descrição;
   - valor;
@@ -72,11 +79,11 @@ Basicamente tudo que foi visto na apostila.
 - Uso correto de variaveis;
 - Uso correto de modificadores de acesso;
 - Uso correto de metodos de instância e estáticos;
-  - Dica se precisar: https://www.devmedia.com.br/trabalhando-com-metodos-em-java/25917
+  - [Dica](https://www.devmedia.com.br/trabalhando-com-metodos-em-java/25917);
 - Encapsulamento das classes;
-  - Dica: https://www.youtube.com/watch?v=OTO1MBMmH9g;
+  - [Dica](https://www.youtube.com/watch?v=OTO1MBMmH9g);
 - Coesão e Acoplamento;
-  - Dica: https://www.devmedia.com.br/entendendo-coesao-e-acoplamento/18538
+  - [Dica](https://www.devmedia.com.br/entendendo-coesao-e-acoplamento/18538);
 - Uso da orientação a objeto (Classe, Método, Herança, Polimorfismo, Encapsulamento e etc...);
 - Se todas as regras e funcionalidades descritas nesse arquivo estão de acordo;
 - Qualidade do código de uma maneira geral;
