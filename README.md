@@ -40,7 +40,8 @@ Valor do Frete: 15,00
 
 - As classes devem estar dentro de um pacote cujo nome é a junção do groupid e do artifactid do maven (br.com.happycode.desafiofrete). ***OBS: happycode é o nome fictício da empresa.***;
   - Olhe o arquivo pom.xml que você irá ver o groupid e o artifactid (só por curiosidade);
-  - Dica: De uma olhada no seguinte video para entender mais sobre a [estrutura de um projeto Maven](https://www.youtube.com/watch?v=ZQICkNszEuI)
+  - Dica: 
+    - [Estrutura de um projeto Maven](https://www.youtube.com/watch?v=ZQICkNszEuI);
 - O cliente deverá conter as seguintes informações: 
   - nome;
   - data de aniversario;
