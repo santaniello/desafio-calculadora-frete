@@ -44,7 +44,6 @@ Valor do Frete: 15,00
       - Se o usuário mandar um cep com mascara (hifen) exemplo: 021023-040, você deve remover esse hifen exemplo: 02123040;
       - Dicas:
           - Estude sobre o pacote [java.lang.String](https://www.devmedia.com.br/java-string-manipulando-metodos-da-classe-string/29862);          
-
   - logradouro;
   - cidade;
   - uf;
@@ -74,8 +73,6 @@ A regra para o calculo de frete por uf deverá ser a seguinte: Se a uf do client
 A regra para o calculo de frete por valor do produto deverá ser a seguinte: Se o preco do produto for menor que 20,00 o valor do frete será de 2,00. Se o valor do produto for entre 20,00 e 100,00 o Frete deverá ser 8,00 e acima de R$ 100,00 o frete é gratis (0,00);
 
 ### O que será avaliado ?
-
-Basicamente tudo que foi visto na apostila.
 
 - Uso correto de variaveis;
 - Uso correto de modificadores de acesso;
