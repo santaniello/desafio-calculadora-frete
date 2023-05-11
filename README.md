@@ -110,7 +110,7 @@ Implementes testes automatizados e integrados para os tipos de calculo e para as
 
 - [Testes unitários com Junit 5](https://www.devmedia.com.br/teste-unitario-com-junit/41235);
 - [Usando Junit5 e Mockito](https://www.youtube.com/watch?v=rVSwDX9KUt8);
-- [Testes com SpringBoot](https://dev.to/wesleyegberto/spring-boot-estrategias-para-testar-rest-api-2nc6)
+- [Testes com SpringBoot](https://dev.to/wesleyegberto/spring-boot-estrategias-para-testar-rest-api-2nc6);
 
 ### O que será avaliado ?
 
