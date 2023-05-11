@@ -126,7 +126,7 @@ Implementes testes automatizados para os tipos de calculo e para as validações
 
 ### FASE 3
 
-***Objetivo:*** A ideia agora é implementar apis para nossa aplicação utilizando Spring Framework.
+***Objetivo:*** A ideia agora é implementar apis para nossa aplicação utilizando Spring Framework e não mais utilizar a impressão pelo console.
 
 ***Aprendizado:*** A idéia aqui é consolidar os conceitos de Web e Apis Rest por meio do Spring Framework.
 
