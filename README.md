@@ -1,4 +1,4 @@
-# Desafio Calculadora Frete
+# Desafio Calculadora br.com.happycode.desafiofrete.Frete
 
 <img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/13483_ECF5D4B2CBDD90FC.jpeg" align="right"
 alt="Size Limit logo by Anton Lovchikov" width="260" height="178">
@@ -6,7 +6,7 @@ alt="Size Limit logo by Anton Lovchikov" width="260" height="178">
 - [📄 Pré-Requisitos ](#pré-requisitos)
 - [💻 FASE 1 - Criando a aplicação](#fase-1)
   - [💲 Regras de Negócio](#regras-de-negócio)
-  - [📚 Funcionamento do Calculo De Frete](#como-funcionará-o-calculo-de-frete-)
+  - [📚 Funcionamento do Calculo De br.com.happycode.desafiofrete.Frete](#como-funcionará-o-calculo-de-frete-)
 - [🤖 FASE 2 - Melhorando a qualidade com testes automatizados](#fase-2)
 - [🚀 FASE 3 - Implementando APIS com Spring Framework](#fase-3)
 - [🌐 FASE 4 - Consumindo APIS Rest](#fase-4)
@@ -31,17 +31,13 @@ alt="Size Limit logo by Anton Lovchikov" width="260" height="178">
 Exemplo do que deve ser impresso no Console :
 
 ```
-Produto: Geladeira
+br.com.happycode.desafiofrete.Produto: Geladeira
 UF: SP
-Valor do Frete: 15,00
+Valor do br.com.happycode.desafiofrete.Frete: 15,00
 ```
 
 ### Regras de Negócio
 
-- As classes devem estar dentro de um pacote cujo nome é a junção do groupid e do artifactid do maven (br.com.happycode.desafiofrete). ***OBS: happycode é o nome fictício da empresa.***;
-  - Olhe o arquivo pom.xml que você irá ver o groupid e o artifactid (só por curiosidade);
-  - Dica: 
-    - [Estrutura de um projeto Maven](https://www.youtube.com/watch?v=ZQICkNszEuI);
 - O cliente deverá conter as seguintes informações: 
   - nome;
   - data de aniversario;
@@ -75,14 +71,14 @@ Valor do Frete: 15,00
 #### Como funcionará o calculo de frete ?
 
 - Deve existir 2 tipos de calculo de frete, um baseado na uf do cliente e outro baseado no valor do produto.
-- Ambos irão receber como parâmetro o produto e o cliente e devem retornar o Frete.
+- Ambos irão receber como parâmetro o produto e o cliente e devem retornar o br.com.happycode.desafiofrete.Frete.
 
-##### Calculo de Frete por uf
+##### Calculo de br.com.happycode.desafiofrete.Frete por uf
 A regra para o calculo de frete por uf deverá ser a seguinte: Se a uf do cliente for SP, MG ou RJ, o valor do frete deverá ser 30% do valor do produto, caso contrário o valor do frete será 15% do valor do produto;
 
-##### Calculo de Frete por valor do produto
+##### Calculo de br.com.happycode.desafiofrete.Frete por valor do produto
 
-A regra para o calculo de frete por valor do produto deverá ser a seguinte: Se o preco do produto for menor que 20,00 o valor do frete será de 2,00. Se o valor do produto for entre 20,00 e 100,00 o Frete deverá ser 8,00 e acima de R$ 100,00 o frete é gratis (0,00);
+A regra para o calculo de frete por valor do produto deverá ser a seguinte: Se o preco do produto for menor que 20,00 o valor do frete será de 2,00. Se o valor do produto for entre 20,00 e 100,00 o br.com.happycode.desafiofrete.Frete deverá ser 8,00 e acima de R$ 100,00 o frete é gratis (0,00);
 
 ### O que será avaliado ?
 
@@ -95,6 +91,9 @@ A regra para o calculo de frete por valor do produto deverá ser a seguinte: Se 
 - Se todas as regras e funcionalidades descritas nesse arquivo estão de acordo;
 - Qualidade do código de uma maneira geral;
 
+***Material de Apoio***
+
+- [Estrutura de um projeto Maven](https://www.youtube.com/watch?v=ZQICkNszEuI);
 ---
 
 ### FASE 2
@@ -131,26 +130,26 @@ Implementes testes automatizados para os tipos de calculo e para as validações
 ***Aprendizado:*** A idéia aqui é consolidar os conceitos de Web e Apis Rest por meio do Spring Framework.
 
 ***Material de apoio:***
-- [Arquitetura Cliente Servidor](https://www.youtube.com/watch?v=hlnejiv5ppw);
+- [Arquitetura br.com.happycode.desafiofrete.Cliente Servidor](https://www.youtube.com/watch?v=hlnejiv5ppw);
 - ***[API REST: Princípios e boas práticas para serviços restful](https://smarti.blog.br/api-rest-principios-boas-praticas-para-arquiteturas-restful/)***;
 
 Precisamos construir uma Api que nos forneça as seguintes funcionalidades:
 
-Produto:
+br.com.happycode.desafiofrete.Produto:
 
 - Obter o produto por Id;
 - Cadastrar um produto;
 - Deletar um produto;
 - Buscar todos os produtos cadastrados;
 
-Cliente:
+br.com.happycode.desafiofrete.Cliente:
 
 - Obter o cliente por Id;
 - Cadastrar um cliente;
 - Deletar um cliente;
 - Buscar todos os clientes cadastrados;
 
-Calculo de Frete:
+Calculo de br.com.happycode.desafiofrete.Frete:
 - Calcular o frete informando como parametros o tipo de calculo a ser executado, o id do produto e o id do cliente;
 
 ### O que será avaliado ?

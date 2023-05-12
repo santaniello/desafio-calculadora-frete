@@ -1,4 +1,4 @@
-
+package br.com.happycode.desafiofrete;
 
 /**
  * Classe responsavel por inicializar a aplicação
