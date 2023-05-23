@@ -10,8 +10,8 @@ alt="Size Limit logo by Anton Lovchikov" width="260" height="178">
 - [🤖 FASE 2 - Melhorando a qualidade com testes automatizados](#fase-2)
 - [🚀 FASE 3 - Implementando APIS com Spring Framework](#fase-3)
 - [🌐 FASE 4 - Consumindo APIS Rest](#fase-4)
-- [⚙️ FASE 5 - Banco de Dados](#fase-5)
-
+- [⚙️FASE 5 - Banco de Dados](#fase-5)
+- [🌐 FASE 6 - Documentação de API com Swagger](#fase-6)
 ---
 
 ## PRÉ REQUISITOS
@@ -189,3 +189,21 @@ Calculo de Frete:
 
 - Conexão com banco de dados;
 - Utilização de banco de dados com a API;
+
+---
+
+### FASE 6
+
+***Objetivo:*** Nessa fase vamos utilizar o Swagger para documentar os recursos dessa API.
+
+***Aprendizado:*** O Swagger é uma ferramenta open source que auxilia desenvolvedores nos processos de definir, criar, documentar e consumir APIs REST. Essa ferramenta auxilia descrevendo os recursos que uma API deve possuir, como endpoints, dados recebidos, dados retornados, códigos HTTP e métodos de autenticação, entre outros.
+
+***Obs:*** 
+- [Documentação do Swagger](https://swagger.io/);
+- [Exemplo de utilização do Swagger com Spring Boot](https://medium.com/@raphaelbluteau/spring-boot-swagger-documentando-sua-api-automaticamente-27903293aeb6);
+
+### O que será avaliado ?
+
+- Documentação da API via Swagger
+
+
